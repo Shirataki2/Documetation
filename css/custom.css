@@ -1,0 +1,38 @@
+
+dt {
+  position: relative;
+  padding: .75em 1em .75em 1.5em;
+}
+dt::after {
+  position: absolute;
+  top: .5em;
+  left: .5em;
+  content: '';
+  width: 6px;
+  height: -webkit-calc(100% - 1em);
+  height: calc(100% - 1em);
+  background-color: #3498db;
+  border-radius: 4px;
+}
+dd::before{
+    content: "\f14a";
+    padding-right: 6px;
+    font-family: FontAwesome;
+}
+
+h1 {
+    position: relative;
+    padding-bottom: 0.5em;
+}
+
+h1::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+    box-sizing: border-box;
+    border-top: 3px solid black;
+    border-bottom: 1px solid black;
+}
