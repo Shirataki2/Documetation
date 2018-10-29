@@ -1,0 +1,45 @@
+site_name: 'KCS Documentation'
+site_description: ''
+site_author: 'Tomoya Ishii'
+site_url: 'http://kcs18.net'
+extra_css:
+    - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
+    - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
+    - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+    - "css/custom.css"
+extra:
+    font:
+        text: "Noto Sans JP"
+        code: "Consolas"
+    search:
+        language: 'jp'
+    palette:
+        primary: 'Light Blue'
+        accent: 'Orange'
+    font:
+        text: 'Roboto'
+        code: 'Roboto Mono'
+    i18n:
+        prev: 'Previous'
+        next: 'Next'
+    author:
+        github: 'yourName'
+        twitter: 'yourName'
+markdown_extensions:
+    - mdx_math:
+        enable_dollar_delimiter: true
+    - admonition
+    - pymdownx.emoji
+    - pymdownx.keys
+    - def_list
+    - fontawesome_markdown
+    - codehilite
+    - toc:
+        permalink: '#'
+extra_javascript: 
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML
+theme:
+    name: material
+    feature:
+        tabs: true
+copyright: 'Copyright (c) 2016'
