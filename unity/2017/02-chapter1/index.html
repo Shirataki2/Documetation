@@ -1,0 +1,965 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+        <link rel="canonical" href="http://kcs18.net/unity/2017/02-chapter1/">
+      
+      
+        <meta name="author" content="Tomoya Ishii">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="jp">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.6">
+    
+    
+      
+        <title>Unityでゲーム制作をする準備 - KCS Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.451f80e5.css">
+      
+        <link rel="stylesheet" href="../../../assets/stylesheets/application-palette.22915126.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosansjp.css">
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:600,800">
+    
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    
+      <link rel="stylesheet" href="../../../css/custom.css">
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="indigo" data-md-color-accent="purple">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#unity" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="http://kcs18.net" title="KCS Documentation" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                KCS Documentation
+              </span>
+              <span class="md-header-nav__topic">
+                Unityでゲーム制作をする準備
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../../.." title="Home" class="md-tabs__link">
+        Home
+      </a>
+    
+  </li>
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../python/00-about/" title="Python" class="md-tabs__link">
+          Python
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../機械学習/00-ml-index/" title="機械学習" class="md-tabs__link">
+          機械学習
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../blender/" title="Blender" class="md-tabs__link">
+          Blender
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../" title="Unity" class="md-tabs__link md-tabs__link--active">
+          Unity
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="http://kcs18.net" title="KCS Documentation" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    KCS Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Python
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Python
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../python/00-about/" title="はじめに" class="md-nav__link">
+      はじめに
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../python/01-install/" title="環境構築" class="md-nav__link">
+      環境構築
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      機械学習
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        機械学習
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../機械学習/00-ml-index/" title="はじめに" class="md-nav__link">
+      はじめに
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Blender
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Blender
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../blender/" title="ようこそ" class="md-nav__link">
+      ようこそ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-2" type="checkbox" id="nav-4-2">
+    
+    <label class="md-nav__link" for="nav-4-2">
+      2017年度講習会
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-2">
+        2017年度講習会
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../blender/01-install/" title="blenderのインストール" class="md-nav__link">
+      blenderのインストール
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../blender/02-makescene/" title="簡単なシーンの製作" class="md-nav__link">
+      簡単なシーンの製作
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../blender/03-omake/" title="さらなる高みを目指して" class="md-nav__link">
+      さらなる高みを目指して
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+    
+    <label class="md-nav__link" for="nav-5">
+      Unity
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Unity
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../" title="ようこそ" class="md-nav__link">
+      ようこそ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-2" type="checkbox" id="nav-5-2" checked>
+    
+    <label class="md-nav__link" for="nav-5-2">
+      2017年度講習会
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-2">
+        2017年度講習会
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../01-introduction/" title="はじめに" class="md-nav__link">
+      はじめに
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Unityでゲーム制作をする準備
+      </label>
+    
+    <a href="./" title="Unityでゲーム制作をする準備" class="md-nav__link md-nav__link--active">
+      Unityでゲーム制作をする準備
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unity_1" title="Unityをダウンロードしよう" class="md-nav__link">
+    Unityをダウンロードしよう
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="ゲームを作成しよう" class="md-nav__link">
+    ゲームを作成しよう
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unity_2" title="Unityエディターの操作画面の基礎知識" class="md-nav__link">
+    Unityエディターの操作画面の基礎知識
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scene" title="Scene(シーン)ビュー" class="md-nav__link">
+    Scene(シーン)ビュー
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hierarchy" title="Hierarchy(ヒエラルキー)ビュー" class="md-nav__link">
+    Hierarchy(ヒエラルキー)ビュー
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#project" title="Project(プロジェクト)ビュー" class="md-nav__link">
+    Project(プロジェクト)ビュー
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inspector" title="Inspector(インスペクター)ビュー" class="md-nav__link">
+    Inspector(インスペクター)ビュー
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#game" title="Game(ゲーム)ビュー" class="md-nav__link">
+    Game(ゲーム)ビュー
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preview" title="Preview(プレビュー)パネル" class="md-nav__link">
+    Preview(プレビュー)パネル
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#console" title="Console(コンソール)ビュー" class="md-nav__link">
+    Console(コンソール)ビュー
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#layout" title="Layout(レイアウト)メニュー" class="md-nav__link">
+    Layout(レイアウト)メニュー
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../03-chapter2/" title="Stage1" class="md-nav__link">
+      Stage1
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unity_1" title="Unityをダウンロードしよう" class="md-nav__link">
+    Unityをダウンロードしよう
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="ゲームを作成しよう" class="md-nav__link">
+    ゲームを作成しよう
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unity_2" title="Unityエディターの操作画面の基礎知識" class="md-nav__link">
+    Unityエディターの操作画面の基礎知識
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scene" title="Scene(シーン)ビュー" class="md-nav__link">
+    Scene(シーン)ビュー
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hierarchy" title="Hierarchy(ヒエラルキー)ビュー" class="md-nav__link">
+    Hierarchy(ヒエラルキー)ビュー
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#project" title="Project(プロジェクト)ビュー" class="md-nav__link">
+    Project(プロジェクト)ビュー
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inspector" title="Inspector(インスペクター)ビュー" class="md-nav__link">
+    Inspector(インスペクター)ビュー
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#game" title="Game(ゲーム)ビュー" class="md-nav__link">
+    Game(ゲーム)ビュー
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preview" title="Preview(プレビュー)パネル" class="md-nav__link">
+    Preview(プレビュー)パネル
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#console" title="Console(コンソール)ビュー" class="md-nav__link">
+    Console(コンソール)ビュー
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#layout" title="Layout(レイアウト)メニュー" class="md-nav__link">
+    Layout(レイアウト)メニュー
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="unity">Unityでゲーム制作をする準備<a class="headerlink" href="#unity" title="Permanent link">#</a></h1>
+<p><span id="est"  class="80"></span></p>
+<p><br></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>このテキストは2017年4月に書かれたテキストをWeb用に変換したものです</p>
+</div>
+<p>本章では以下の内容を学習します。</p>
+<ul>
+<li>Unityのダウンロード方法</li>
+<li>ゲームの作成方法</li>
+<li>Unityエディターの使い方</li>
+</ul>
+<h2 id="unity_1">Unityをダウンロードしよう<a class="headerlink" href="#unity_1" title="Permanent link">#</a></h2>
+<p>まずは<a href="https://unity3d.com/jp/get-unity/download">Unityのダウンロードページ</a>を開きましょう。</p>
+<p>以下のようなのページが開けていたら大丈夫です。
+<img alt="" src="../images/UnityDownload.png" /></p>
+<p>さて、上図の赤枠のように <strong>「Unityを選択・ダウンロード」</strong>をクリックしてください。
+その後、下図のように<strong>UnityPersonalの「今すぐダウンロード」</strong>を選択しましょう。</p>
+<p><img alt="" src="../images/UnityPersonal.png" /></p>
+<p>そして下図のように<strong>「インストーラをダウンロード」</strong>をクリックします。</p>
+<p><img alt="" src="../images/Installer.png" /></p>
+<p>それではダウンロードしたファイルを実行しましょう。</p>
+<p><img alt="" src="../images/Installer1.png" /></p>
+<p><img alt="" src="../images/Installer2.png" /></p>
+<p><img alt="" src="../images/Installer3.png" /></p>
+<p>下図のチェックボックスはインストール内容を決めるものです。
+上の3つは基本的にチェックをつけておきましょう。
+6つ目以降はビルドサポートです。
+自分が制作したいプラットフォームを選択しましょう。</p>
+<p><img alt="" src="../images/Installer4.png" /></p>
+<p><img alt="" src="../images/Installer5.png" /></p>
+<p><img alt="" src="../images/Installer6.png" /></p>
+<h2 id="_1">ゲームを作成しよう<a class="headerlink" href="#_1" title="Permanent link">#</a></h2>
+<p>ダウンロードが完了したら、新規ゲームを作ってみましょう。以下の手順に従ってゲームを作成してください。</p>
+<p>Unityを立ち上げ、「Projects」を選択し、「new」をクリック
+<img alt="" src="../images/NewProject.png" /></p>
+<p>プロジェクトの詳細を入力し、「Create project」をクリック
+<img alt="" src="../images/CreateGame.png" /></p>
+<p>今回は「Project name」に「AthleticGame」と入力し、モードは3Dにします。</p>
+<h2 id="unity_2">Unityエディターの操作画面の基礎知識<a class="headerlink" href="#unity_2" title="Permanent link">#</a></h2>
+<p>さて、ゲームの作成が完了すると下図のようなエディター画面が表示されます。
+<img alt="" src="../images/UnityEditor.png" /></p>
+<p>詳しい使い方は作業をしながら学んでいきますので、まずはどこに何があるのか覚えましょう。</p>
+<h3 id="scene">Scene(シーン)ビュー<a class="headerlink" href="#scene" title="Permanent link">#</a></h3>
+<p>シーンビューには、背景、キャラクター、カメラ、ライトなどのゲーム要素(ゲームオブジェクト)が示されています。それらを選択、移動することでゲームオブジェクトの位置関係を変更することができます。</p>
+<h3 id="hierarchy">Hierarchy(ヒエラルキー)ビュー<a class="headerlink" href="#hierarchy" title="Permanent link">#</a></h3>
+<p>シーン上に置かれている全てのゲームオブジェクトが表示されます。階層構造にするなどの編集もここで行います。</p>
+<h3 id="project">Project(プロジェクト)ビュー<a class="headerlink" href="#project" title="Permanent link">#</a></h3>
+<p>プロジェクトにインポートされている画像やオーディオ、3Dモデル、プログラムなどすべてのファイル(アセット)が表示されます。</p>
+<h3 id="inspector">Inspector(インスペクター)ビュー<a class="headerlink" href="#inspector" title="Permanent link">#</a></h3>
+<p>選択したオブジェクトが持つ、要素や設定(コンポーネント)を確認、編集することができます。
+コンポーネントには、位置や回転、大きさを表すTransformや、物理的な挙動を行わせるRigidbody、プログラム、オーディオなどが含まれます。
+コンポーネントはドラマや映画で言う台本だと考えてもらっても構いません。</p>
+<h3 id="game">Game(ゲーム)ビュー<a class="headerlink" href="#game" title="Permanent link">#</a></h3>
+<p>作成しているゲームのプレビューを表示します。現在のゲームがどのように動くのか、バグはないかなどの確認のために使用します。プレビュー中に行った変更はプレイ状態を解除すると元に戻されてしまうので注意しましょう。</p>
+<h3 id="preview">Preview(プレビュー)パネル<a class="headerlink" href="#preview" title="Permanent link">#</a></h3>
+<p>ゲームプレビューの制御を行います。左から順にプレイ、ポーズ、ステップです。プレイをクリックすると、ゲームビューでプレビューが再生されます。もう一度クリックすることで停止することができます。ポーズをクリックすると一時停止します。ステップをクリックするとゲームをコマ送りにして確認することができます。</p>
+<h3 id="console">Console(コンソール)ビュー<a class="headerlink" href="#console" title="Permanent link">#</a></h3>
+<p>メッセージ、警告、エラーを表示します。プレビュー中に発見したバグの解決に役立ちます。</p>
+<h3 id="layout">Layout(レイアウト)メニュー<a class="headerlink" href="#layout" title="Permanent link">#</a></h3>
+<p>エディターのレイアウトを変更できます。あらかじめ、用意されているレイアウトを利用することもできますが、自分で使いやすいレイアウトに編集することもできます。レイアウトの編集は各ビュー左上部のタブを好きな場所までドラッグすることでできます。本書では説明の都合上、オリジナルのレイアウトを使用していることに注意してください。</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../01-introduction/" title="はじめに" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                はじめに
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../03-chapter2/" title="Stage1" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Stage1
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright (c) 2018 Tomoya Ishii
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../../assets/fonts/font-awesome.css">
+    
+      <a href="https://kcs1959.jp" class="md-footer-social__link fa fa-globe americas"></a>
+    
+      <a href="https://twitter.com/kcs1959" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://www.linkedin.com/in/kcs-keio-computer-society-4903a5134/" class="md-footer-social__link fa fa-linkedin"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.5e60981f.js"></script>
+      
+        
+        
+          
+          <script src="../../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+                <script src="../../../assets/javascripts/lunr/tinyseg.js"></script>
+              
+              
+                <script src="../../../assets/javascripts/lunr/lunr.jp.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
+      
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.3.min.js"></script>
+      
+        <script src="../../../js/script.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+      
+    
+    
+      
+    
+  </body>
+</html>
