@@ -7,6 +7,10 @@ extra_css:
     - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
     - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
     - "css/custom.css"
+extra_javascript:
+    - "https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.3.min.js"
+    - "js/script.js"
+    - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"
 extra:
     font:
         text: "Noto Sans JP"
@@ -25,21 +29,53 @@ extra:
     author:
         github: 'yourName'
         twitter: 'yourName'
+    social:
+        - type: 'globe americas'
+          link: 'https://kcs1959.jp'
+        - type: 'twitter'
+          link: 'https://twitter.com/kcs1959'
+        - type: 'linkedin'
+          link: 'https://www.linkedin.com/in/kcs-keio-computer-society-4903a5134/'
 markdown_extensions:
     - mdx_math:
         enable_dollar_delimiter: true
     - admonition
     - pymdownx.emoji
     - pymdownx.keys
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.superfences
     - def_list
     - fontawesome_markdown
     - codehilite
+    - footnotes
     - toc:
         permalink: '#'
-extra_javascript: 
-    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML
 theme:
     name: material
     feature:
         tabs: true
-copyright: 'Copyright (c) 2016'
+    palette:
+        primary: 'indigo'
+        accent: 'purple'
+copyright: 'Copyright (c) 2018 Tomoya Ishii'
+nav:
+    - Home: "index.md"
+    - Python:
+        - はじめに: "python/00-about.md"
+        - 環境構築: "python/01-install.md"
+    - 機械学習:
+        - はじめに: "機械学習/00-ml-index.md"
+    - Blender:
+        - ようこそ: "blender/index.md"
+        - 2017年度講習会:
+            - blenderのインストール:  "blender/01-install.md"
+            - 簡単なシーンの製作:      "blender/02-makescene.md"
+            - さらなる高みを目指して:  "blender/03-omake.md"
+    - Unity:
+        - ようこそ: "unity/index.md"
+        - 2017年度講習会: 
+            - はじめに: "unity/2017/01-introduction.md"
+            - Unityでゲーム制作をする準備: "unity/2017/02-chapter1.md"
+            - Stage1: "unity/2017/03-chapter2.md"

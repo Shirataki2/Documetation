@@ -1,5 +1,9 @@
 # 環境構築
 
+<span id="est" class="200"></span>
+
+<br>
+
 Pythonの環境を作るにあたり以下のような選択肢があります．
 
 * OSは何か？
@@ -19,7 +23,7 @@ Pythonはマルチプラットフォームであるため主要のOSならば動
 欲を言えばLinux上で動かすことが最も簡単ですがなかなかそうもいかないことでしょう．
 
 !!! Tip
-    そうもいかなくもないかもしれません．
+    Windows上でLinuxの仮想環境を作成し動かすことも可能です
 
     [Windows Subsystem for Linux](https://docs.microsoft.com/ja-jp/windows/wsl/about)(WSL)を使うことで仮想のLinux環境を構築すれば手元のWindowsでLinux環境を操作することが可能となります．
 

@@ -53,6 +53,22 @@ h3 {
 }
 
 img {
+    display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#est {
+    display: block;
+    float: right;
+    color: #888;
+    font-size: 12px;
+}
+#est::after{
+    clear: both;
+}
+#est span {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 3px;
 }
