@@ -2,67 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://docs.kcs18.net/</loc>
-     <lastmod>2018-10-31</lastmod>
+     <lastmod>2018-11-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.kcs18.net/python/00-about/</loc>
-     <lastmod>2018-10-31</lastmod>
+     <lastmod>2018-11-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.kcs18.net/python/01-install/</loc>
-     <lastmod>2018-10-31</lastmod>
+     <lastmod>2018-11-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.kcs18.net/機械学習/00-ml-index/</loc>
-     <lastmod>2018-10-31</lastmod>
+     <lastmod>2018-11-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.kcs18.net/blender/</loc>
-     <lastmod>2018-10-31</lastmod>
+     <lastmod>2018-11-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.kcs18.net/blender/01-install/</loc>
-     <lastmod>2018-10-31</lastmod>
+     <lastmod>2018-11-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.kcs18.net/blender/02-makescene/</loc>
-     <lastmod>2018-10-31</lastmod>
+     <lastmod>2018-11-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.kcs18.net/blender/03-omake/</loc>
-     <lastmod>2018-10-31</lastmod>
+     <lastmod>2018-11-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.kcs18.net/unity/</loc>
-     <lastmod>2018-10-31</lastmod>
+     <lastmod>2018-11-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.kcs18.net/unity/2017/01-introduction/</loc>
-     <lastmod>2018-10-31</lastmod>
+     <lastmod>2018-11-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.kcs18.net/unity/2017/02-chapter1/</loc>
-     <lastmod>2018-10-31</lastmod>
+     <lastmod>2018-11-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.kcs18.net/unity/2017/03-chapter2/</loc>
-     <lastmod>2018-10-31</lastmod>
+     <lastmod>2018-11-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.kcs18.net/unity/2017/04-chapter3/</loc>
-     <lastmod>2018-10-31</lastmod>
+     <lastmod>2018-11-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.kcs18.net/etc/bayes/01/</loc>
+     <lastmod>2018-11-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.kcs18.net/etc/webml/01/</loc>
+     <lastmod>2018-11-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
 </urlset>
