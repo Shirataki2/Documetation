@@ -66,6 +66,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://docs.kcs18.net/etc/</loc>
+     <lastmod>2018-11-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://docs.kcs18.net/etc/bayes/01/</loc>
      <lastmod>2018-11-01</lastmod>
      <changefreq>daily</changefreq>
